@@ -622,6 +622,6 @@
 - o: minute
   t: minuta
 - o: Activation link sent. Check your email!
-  t: Aktivierungs-Link gesendet. Prüfen Sie Ihr Postfach!
+  t: Aktivační link byl odeslán. Zkontrolujte svůj e-mail!
 - o: App reset successfully. Off to a fresh start!
-  t: Die App wurde erfolgreich zurückgesetzt.
+  t: Data byla úspěšně vymazána z aplikace. Začněte na zelené louce!
