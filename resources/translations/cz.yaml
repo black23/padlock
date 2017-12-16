@@ -17,7 +17,7 @@
 - o: 'Subscription Status:'
   t: 'Stav předplatného:'
 - o: 'Trialing ({0} days left)'
-  t: 'Testování ({0} dní zbývá)'
+  t: 'Zbývá ({0} dní zkušebního předplatného)'
 - o: Buy Subscription
   t: Zakoupit předplatné
 - o: Read-Only
@@ -39,9 +39,9 @@
     Indem Sie eine eigene URL angeben, können Sie Ihre Daten mit einem anderen
     Server als den offiziellen Padlock Cloud server synchronisieren.
 - o: 'WARNING: This is only recommended for advanced users!'
-  t: 'WARNUNG: Dies ist nur for fortgeschrittene Nutzer empfohlen!'
+  t: 'VAROVÁNÍ: Toto nastavení je doporučeno pouze pro pokročilé uživatele!'
 - o: Use Custom Server
-  t: POužít vlastní server
+  t: Použít vlastní server
 - o: Enter Custom URL
   t: Zadejte vlastní URL
 - o: Invalid URL
@@ -50,8 +50,7 @@
     Make sure that the URL is of the form https://myserver.tld:port. Note that a
     https connection is required.
   t: >-
-    Die URL muss von der Form https://myserver.tld:port. Eine sichere Verbindung
-    über https ist erforderlich.
+    Ujistěte se, že URL má formát https://mujserver.tld:port. Zabezpečené https spojení je vyžadováno.
 - o: 'Export {0} Records'
   t: 'Exportováno {0} záznamů'
 - o: No Fields
@@ -62,8 +61,7 @@
   t: 'vybráno {0} záznamů '
 - o: You don't have any data yet! Start by creating your first record!
   t: >-
-    Es sind noch keine Einträge vorhanden. Fangen Sie an, indem Sie Ihren ersten
-    Eintrag erstellen!
+    Zatím nemáte uložena žádná data! Začněte vytvořením prvního záznamu!
 - o: Empty Field
   t: Prázdné pole
 - o: Enter New Field Name
@@ -97,7 +95,7 @@
 - o: Select a File
   t: Zvolte soubor
 - o: Change Master Password
-  t: Změnit hlavní heslo
+  t: Změnit Master heslo
 - o: Reset App
   t: Vynulovat nastavení aplikace
 - o: I
@@ -109,7 +107,7 @@
 - o: Support
   t: Podpora
 - o: Enter Master Password
-  t: Zadejte hlavní kód
+  t: Zadejte Master heslo
 - o: Unlock
   t: Odemknout
 - o: Welcome to Padlock!
@@ -123,7 +121,7 @@
 - o: How do I choose a good master password?
   t: Wie wähle ich ein gutes Master Passwort?
 - o: Confirm Master Password
-  t: Potvrďte hlavní heslo
+  t: Potvrďte Master heslo
 - o: All done!
   t: Hotovo!
 - o: You're all set! Enjoy using Padlock!
@@ -135,23 +133,21 @@
 - o: OK
   t: OK
 - o: Are you sure you want to do this?
-  t: Sind Sie sicher dass Sie dies tun möchten?
+  t: Jste si skutečně jistý/á?
 - o: Dismiss
   t: Odejít
 - o: >-
     You have to be connected to a Padlock Cloud account to synchronize your
     data!
   t: >-
-    Sie müssen mit Padlock Cloud verbunden sein um Ihre Daten zu
-    synchronisieren!
+    Aby fungovala synchronizace dat musíte být připojeni do Padlock Cloudu!
 - o: Padlock Cloud master password updated successfully!
-  t: Ihr Password auf Padlock Cloud wurde erfolgreich geändert!
+  t: Master heslo Padlock Cloudu bylo úspěšně změněno!
 - o: Failed to update Padlock Cloud master password. Please try again later!
   t: >-
-    Die Änderung Ihres Passwort auf Padlock Cloud ist fehlgeschlagen. Bitte
-    versuchen Sie es später erneut!
+    Změna Master hesla pro Padlock CLoudu se nezdařila. Zkuste to prosím znovu!
 - o: You successfully paired this device with Padlock Cloud!
-  t: Sie haben dieses Gerät erfolgreiche mit Padlock Cloud verbunden!
+  t: Ůspěšně jste zprárovali zařízení s Padlock CLoudem!
 - o: Synchonize Now
   t: Synchrnizovat nyní
 - o: >-
@@ -213,8 +209,7 @@
     Account zu synchronisieren, sobald Sie Änderungen vornehmen!
 - o: Do you want to change your Padlock Cloud master password to your local one?
   t: >-
-    Wollen Sie Ihr Master Password auf Padlock Cloud auf Ihr lokales Password
-    ändern?
+    Chtete nastavit Master heslo Padlock Cloudu stejné jako lokální Master heslo?
 - o: 'Yes'
   t: Ano
 - o: 'No'
@@ -276,11 +271,11 @@
 - o: Check For Updates
   t: Zkontrolovat aktualizace
 - o: Something went wrong. Please try again later!
-  t: Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut!
+  t: Něco se pokazilo. Prosím, zkuste to znovu!
 - o: Please enter a valid email address!
   t: Zadejte prosím platnou e-mailovou adresu!
 - o: Are you sure you want to disconnect from Padlock Cloud?
-  t: 'Sind Sie sicher, dass Sie dieses Gerät von Padlock Cloud trennen möchten?'
+  t: Opravdu se chcete odpojit od Padlock Cloudu?
 - o: Disconnect
   t: Odpojit se
 - o: >-
@@ -292,11 +287,11 @@
 - o: Continue
   t: POkračovat
 - o: Click To Copy
-  t: Zkopírovat kliknutím
+  t: Kliknutím zkopírujete do schránky
 - o: Cannot lock app while sync is in progress!
-  t: App kann nicht gesperrt werden solange Synchronisierung im Gange ist!
+  t: Dokud probíhá synchronizace aplikaci nelze zamknout!
 - o: Recently Used
-  t: Právě přidáno
+  t: Právě použito
 - o: >-
     Are you sure you want to delete these records? This action can not be
     undone!
@@ -306,15 +301,15 @@
 - o: 'Delete {0} Records'
   t: 'Smazáno {0} záznamů'
 - o: Please enter a field name first!
-  t: Bitte geben Sie zuerst einen Feldnamen ein!
+  t: Nejdříve pojmenujte pole!
 - o: Value copied to clipboard!
-  t: Daten in Zwischenablage kopiert!
+  t: Hodnota byla zkopírována do schránky!
 - o: Are you sure you want to delete this field?
-  t: 'Sind Sie sicher, dass Sie dieses Feld löschen wollen?'
+  t: 'Opravdu chcete smazat toto pole?'
 - o: Delete
   t: Smazat
 - o: Are you sure you want to delete this record?
-  t: 'Sind Sie sicher, dass Sie diesen Eintrag löschen wollen?'
+  t: 'Opravdu chcete smazat tento záznam?'
 - o: >-
     WARNING: Exporting to CSV format will save your data without encyryption of
     any kind which means it can be read by anyone. We strongly recommend
@@ -333,8 +328,7 @@
     Your data has successfully been copied to the system clipboard. You can now
     paste it into the spreadsheet program of your choice.
   t: >-
-    Ihre Daten wurden erfolgreich in die Zwischenablage kopiert. Sie können sie
-    nun in ein Tabellenprogramm Ihrer Wahl kopieren.
+    Údaje se podařilo zkopírovat do schránky. Nyní je můžete vložit do libovolné tabulkové aplikace.
 - o: >-
     Please choose a password to protect your data. This may be the same as your
     master password or something else, but make sure it is sufficiently strong!
@@ -370,15 +364,15 @@
     Sind Sie sicher, dass Sie Ihr Master Passwort ändern wollen? Geben Sie Ihr
     jetziges Passwort ein um fortzufahren!
 - o: Enter Current Password
-  t: Jetziges Passwort Eingeben
+  t: Zadejte stávající heslo
 - o: You entered the wrong master password!
-  t: Sie haben das falsche Passwort eingegeben!
+  t: Bylo zadáno neplatné Master heslo!
 - o: Now choose a new master password!
-  t: Wählen Sie ein neues Master Passwort aus!
+  t: Nyní zvolte nové Master heslo!
 - o: Enter New Password
   t: Zadejte nové heslo
 - o: Confirm your new master password!
-  t: Bestätigen Sie Ihr neues Passwort!
+  t: Potvrďte nové Master heslo!
 - o: Confirm New Password
   t: Potvrďte nové heslo
 - o: Confirm & Change
@@ -388,7 +382,7 @@
     Sie haben das neue Passwort nicht korrekt wiederholt. Bitte versuchen Sie es
     erneut!
 - o: Master password changed successfully.
-  t: Ihr Masterpassword wurde erfolgreich geändert.
+  t: Master heslo bylo úspěšně změněno.
 - o: >-
     Are you sure you want to delete all your data and reset the app? Enter your
     master password to continue!
@@ -410,13 +404,12 @@
     Die zu importierenden Daten wurden scheinbar mit einer neueren Version von
     Padlock Cloud exporortiert und können deshalb nicht geöffnet werden.
 - o: Failed to recognize file format.
-  t: Dateiformat konnte nicht erkannt werden.
+  t: Nepodařilo rozpoznat formát dat.
 - o: Failed to open file.
-  t: Datei konnte nicht geöffnet werden.
+  t: Soubor se nepodařilo otevřít.
 - o: Failed to decrypt data. Did you enter the correct password?
   t: >-
-    Datei konnte nicht entschlüsselt werden. Haben Sie das richtige Passwort
-    eingegeben?
+    Nepodařilo se dešifrovat data. Bylo zadáno správné heslo?
 - o: >-
     No supported data found in clipboard. Please make sure to copy you data to
     the clipboard first (e.g. via ctrl + C).
