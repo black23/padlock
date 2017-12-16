@@ -85,15 +85,15 @@
 - o: ' min'
   t: ' min'
 - o: After
-  t: PO
+  t: Po
 - o: Peek Values
-  t: Schneller Blick
+  t: Viditelné hodnoty
 - o: Export
   t: Export
 - o: Import
   t: Import
 - o: Paste From Clipboard
-  t: Vloži se schránky
+  t: Vložit ze schránky
 - o: Select a File
   t: Zvolte soubor
 - o: Change Master Password
@@ -137,7 +137,7 @@
 - o: Are you sure you want to do this?
   t: Sind Sie sicher dass Sie dies tun möchten?
 - o: Dismiss
-  t: OK
+  t: Odejít
 - o: >-
     You have to be connected to a Padlock Cloud account to synchronize your
     data!
