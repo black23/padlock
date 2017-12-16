@@ -97,11 +97,11 @@
 - o: Change Master Password
   t: Změnit Master heslo
 - o: Reset App
-  t: Vynulovat nastavení aplikace
+  t: Vynmazat data z aplikace
 - o: I
   t: Já
 - o: Developed and maintained by
-  t: Vyvinuto a spravováno
+  t: Vyvinul a spravuje
 - o: Website
   t: Webová stránka
 - o: Support
@@ -119,13 +119,13 @@
 - o: Skip Email
   t: Přeskočit zadání e-mailu
 - o: How do I choose a good master password?
-  t: Wie wähle ich ein gutes Master Passwort?
+  t: Jak vybrat kvalitní Master heslo?
 - o: Confirm Master Password
   t: Potvrďte Master heslo
 - o: All done!
   t: Hotovo!
 - o: You're all set! Enjoy using Padlock!
-  t: Alles ist eingerichtet! Viel Spaß beim Nutzen von Padlock!
+  t: Vše je nastaveno! Uživejte si používání Padlocku!
 - o: Finish Setup
   t: Dokončit nastavení
 - o: New Record
@@ -149,7 +149,7 @@
 - o: You successfully paired this device with Padlock Cloud!
   t: Ůspěšně jste zprárovali zařízení s Padlock CLoudem!
 - o: Synchonize Now
-  t: Synchrnizovat nyní
+  t: Synchronizovat nyní
 - o: >-
     Almost done! We send an email with a login link to {0}. Check your inbox and
     follow the link to complete the process!
@@ -232,8 +232,9 @@
     button below. Please note that you won't be able to use Padlock Cloud until
     you install the latest version!
   t: >-
-    Eine aktuellere Version von Padlock ist nun verfügbar! Bitte installieren
-    Sie diese um Padlock Cloud weiterhin nutzen zu können!
+    Je dostupná nová verze Padlock! Můžete ji stáhnout po kliknutí na tlačítko dole. 
+    Prosím vezměte na vědomí, že není možné používat Padlock CLoud s jinou, 
+    než nejnovější verzí!
 - o: Update Now
   t: Aktualizovat nyní
 - o: It seems Padlock Cloud is over capacity right now. Please try again later!
@@ -285,13 +286,13 @@
     Sind Sie sicher, dass Sie einen eigenen Server zur Synchronisation verwenden
     möchten? Dies ist nur für fortgeschrittene Nutzer zu empfehlen!
 - o: Continue
-  t: POkračovat
+  t: Pokračovat
 - o: Click To Copy
   t: Kliknutím zkopírujete do schránky
 - o: Cannot lock app while sync is in progress!
   t: Dokud probíhá synchronizace aplikaci nelze zamknout!
 - o: Recently Used
-  t: Právě použito
+  t: Nejčastěji používané
 - o: >-
     Are you sure you want to delete these records? This action can not be
     undone!
@@ -352,9 +353,9 @@
     Variation von Groß-, und Kleinbuchstaben sowie Sonderzeichen und Zahlen zu
     verwenden!
 - o: Use Anyway
-  t: Trotzdem Verwenden
+  t: Přesto použít
 - o: Choose Different Password
-  t: Anderes Passwort Wählen
+  t: Zvolte jiné heslo
 - o: Your data has successfully been copied to the system clipboard.
   t: Ihre Daten wurden erfolgreich in die Zwischenablage kopiert.
 - o: >-
@@ -364,7 +365,7 @@
     Sind Sie sicher, dass Sie Ihr Master Passwort ändern wollen? Geben Sie Ihr
     jetziges Passwort ein um fortzufahren!
 - o: Enter Current Password
-  t: Zadejte stávající heslo
+  t: Zadejte aktuální heslo
 - o: You entered the wrong master password!
   t: Bylo zadáno neplatné Master heslo!
 - o: Now choose a new master password!
@@ -473,7 +474,7 @@
 - o: You didn't type 'RESET'. Refusing to reset the app.
   t: Sie haben nicht "RESET" eingegeben. Die App wird nicht zurückgesetzt.
 - o: Please enter your password!
-  t: Bitte geben Sie Ihr Passwort ein!
+  t: Prosím, zadejte vaše heslo
 - o: >-
     Forgot your master password? You can start over by resetting the app.
     WARNING: This will delete all your data!
